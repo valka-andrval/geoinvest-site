@@ -6,13 +6,10 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat',
+    sans-serif;
   color: $color-black;
   transition-duration: $dur-secondary;
-}
-
-body.dark-theme {
-  background-color: $color-darkgrey;
 }
 
 .container {
@@ -27,7 +24,6 @@ body.dark-theme {
 
   @media screen and (min-width: $desktop) {
     max-width: 1280px;
-    padding: 0 100px;
   }
 }
 
