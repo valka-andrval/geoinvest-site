@@ -9,7 +9,6 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: './src/index.html',
-        favorites: './src/favorites.html',
       },
     },
     outDir: '../dist',
